@@ -21,7 +21,7 @@ from sklearn.inspection import permutation_importance
 # LightGBM
 import lightgbm as lgb
 
-st.set_page_config(page_title="AirQo Dashboard (OOF/Test + LightGBM Explain)", layout="wide")
+st.set_page_config(page_title="AirQo Dashboard (OOF/Test + LightGBM Explicabilité)", layout="wide")
 
 ID_COL = "ID"
 LOC_COL = "location"
